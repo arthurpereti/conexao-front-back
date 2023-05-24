@@ -1,0 +1,20 @@
+<h1>Consulta de Produtos</h1>
+<br>
+<table>
+    <thread>
+        <th>Código</th>
+        <th>Nome</th>
+        <th>Quantidade</th>
+        <th>Preço</th>
+    </thread>
+    <tbody>
+        {{#each valores}}
+        <tr>
+            <td>{{this.id}}</td>
+            <td>{{this.nome}}</td>
+            <td>{{this.qtde}}</td>
+            <td>{{this.preco}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
